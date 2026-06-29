@@ -4,3 +4,12 @@ __pycache__/
 .DS_Store
 Thumbs.db
 *.tar.gz
+
+# Base SDXL model (6.5GB — download separately)
+sdxl_model/
+
+# Training intermediate checkpoints (epoch-by-epoch outputs)
+kohya_ss_output/output/
+
+# Local test images
+test_output/
